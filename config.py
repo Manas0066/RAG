@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # 🔑 API Key
-GEMINI_API_KEY = os.getenv("AIzaSyAsbHJzLai7xx0ey6OjcJdQqipRpsMgPx8")
+GEMINI_API_KEY = os.getenv("API_KEY")
 
 # 📂 Paths
 PDF_PATH = os.getenv("PDF_PATH", "data/ExplosivesRules2008.pdf")

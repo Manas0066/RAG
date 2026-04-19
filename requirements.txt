@@ -1,0 +1,16 @@
+streamlit
+google-genai
+python-dotenv
+
+langchain
+langchain-community
+langchain-core
+
+faiss-cpu
+sentence-transformers
+
+pdfplumber
+pypdf
+
+numpy
+tqdm

@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+
+# FAISS Indices
+indices/
+uploaded_faiss_index/
+resume_faiss_index/
+
+# SQLite database
+*.db
+
+# Temporary files
+*.tmp
+*.temp
+tmp*/
+tempfile*
+
+# Old/legacy files (root level only)
+/app.py
+/l1.py
+/l2.py
+/l22.py
+/test_ollama.py
+/chunking.py
+/ExplosiveRules2008.txt
+/Info.txt
+/Data/
+
+
+# System files
+.DS_Store
+Thumbs.db
+
